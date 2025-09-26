@@ -9,7 +9,7 @@ from transformers import pipeline
 
 pipe = pipeline("sentiment-analysis", model="ProsusAI/finbert")
 
-API_KEY = "" #Enter API key here
+API_KEY = "" #Enter NewsAPI API key here
 url = (
      "https://newsapi.org/v2/top-headlines?"
 )
